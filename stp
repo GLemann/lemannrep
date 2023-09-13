@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir ./nginxdocker/
+
+cd ./nginxdocker/
+
+git clone https://github.com/GLemann/lemannrep.git
+
+docker-compose up
